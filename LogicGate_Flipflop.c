@@ -24,7 +24,7 @@ void srFlipflop(int* q, int * negativeQ, const int s, const int r) {
     time_t t = time(NULL);
     struct tm tm = *localtime(&t);
     
-    printf("Clock: %d, ", CLOCK);
+    printf("Clock345: %d, ", CLOCK);
     
     ratch(q, negativeQ, s & CLOCK, r & CLOCK);
     
