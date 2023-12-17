@@ -1,8 +1,6 @@
 //
 //성현욱
 //2023.11.20
-//test
-//test2s
 #include <stdio.h>
 #include <time.h>
 
@@ -24,7 +22,7 @@ void srFlipflop(int* q, int * negativeQ, const int s, const int r) {
     time_t t = time(NULL);
     struct tm tm = *localtime(&t);
     
-    printf("Clock123: %d, ", CLOCK);
+    printf("Clock: %d, ", CLOCK);
     
     ratch(q, negativeQ, s & CLOCK, r & CLOCK);
     
