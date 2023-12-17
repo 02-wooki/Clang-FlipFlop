@@ -2,6 +2,7 @@
 //성현욱
 //2023.11.20
 //test
+//test2s
 #include <stdio.h>
 #include <time.h>
 
