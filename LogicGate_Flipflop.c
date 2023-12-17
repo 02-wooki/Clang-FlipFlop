@@ -1,7 +1,7 @@
 //
 //성현욱
 //2023.11.20
-
+//test
 #include <stdio.h>
 #include <time.h>
 
